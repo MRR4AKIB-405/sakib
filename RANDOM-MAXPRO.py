@@ -158,8 +158,7 @@ class Main:
 		else:
 			Main()
 			def password():
-    
-    os.system("clear")
+ 
     print(logo)
     print('       \x1b[97m[\033[37;41m  P A S S W O R D   M E N U   \033[0;m] ')
     print(f"")
