@@ -59,7 +59,7 @@ def irfan():
 	
 	runtxt("\n\033[0;91m This tool is Under maintenance break ")
 	runtxt("\n\033[0;91m So wait For Update ")
-        
+
 	
 	
 plist = (platform.uname())[2]
@@ -158,8 +158,7 @@ class Main:
 		else:
 			Main()
 			def password():
- 
-    print(logo)
+    
     print('       \x1b[97m[\033[37;41m  P A S S W O R D   M E N U   \033[0;m] ')
     print(f"")
     print(f"{RED}[01] {WHITE} 1 PASSWORD   {GREEN} [ FASTEST⚡]")
