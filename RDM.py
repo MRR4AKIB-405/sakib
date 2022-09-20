@@ -355,20 +355,22 @@ def xyz():
     print(f"")
     print(f"\033[1;91m========================================================")
     𝙰𝙺𝙰𝚂𝙷 = input("[√] CHOOSE : ")
-    if 𝙰𝙺𝙰𝚂𝙷 in ["1","01"]:
-        
-        password()
-    elif 𝙰𝙺𝙰𝚂𝙷 in ["2","02"]:
-        Tabii2()
-        
-    elif 𝙰𝙺𝙰𝚂𝙷 in ["3","03"]:
-        os.system("xdg-open https://www.facebook.com/owner.termux");xyz()
-    elif 𝙰𝙺𝙰𝚂𝙷 in ["4","04"]:
-        os.system("xdg-open https://wa.me/+8801721474011");xyz()
-    elif 𝙰𝙺𝙰𝚂𝙷 in ["0","00"]:
-       exit()
-    else:
-        print('\033[1;31mINCORECT OPTION!\033[1;31m')
+  exit()
+   plr = requests.get('https://raw.githubusercontent.com/Riyad-RR-Hacker/text/main/Dis').text
+			if basesplit in plr:
+				key = basesplit
+				stat = ("\033[0;92mPREMIUM")
+				FY = '\033[0;93m'
+				FG = '\033[0;92m'
+				GET = '\r'
+			else:
+				key = ("\033[0;91m -")
+				stat = ("\033[0;91mFREE USER")
+				FY = '\033[0;90m'
+				FG = '\033[0;90m'
+				GET = '\033[0;92m [P] GET PREMIUM'
+		except requests.exceptions.ConnectionError:
+			print('\033[1;31mINCORECT OPTION!\033[1;31m')
         xyz()
 #---------------------[PASS DEF]---------------------#
 def password():
@@ -381,18 +383,24 @@ def password():
     print(f"{RED}[02] {WHITE} 2 PASSWORDS  {GREEN} [ FAST     ]")
     print(f"{RED}[03] {WHITE} 5 PASSWORDS  {GREEN} [ SLOW   🐌]")
     linex()
-    print("")
-    passX = input(f" {RED}CHOOSE{𝙰𝙺𝙰𝚂𝙷2} : ")
-    if passX in ['1','01']:
-        os.system("xdg-open https://www.facebook.com/owner.termux")
-        password1()
-    elif passX in ['2','02']:
-        os.system("xdg-open https://www.facebook.com/owner.termux")
-        password2()
-    elif passX in ['3','03']:
-        os.system("xdg-open https://www.facebook.com/owner.termux")
-        password5()
-    else:
+ 
+    𝙰𝙺𝙰𝚂𝙷 = input("[√] CHOOSE : ")
+  exit()
+   plr = requests.get('https://raw.githubusercontent.com/Riyad-RR-Hacker/text/main/Dis').text
+			if basesplit in plr:
+				key = basesplit
+				stat = ("\033[0;92mPREMIUM")
+				FY = '\033[0;93m'
+				FG = '\033[0;92m'
+				GET = '\r'
+			else:
+				key = ("\033[0;91m -")
+				stat = ("\033[0;91mFREE USER")
+				FY = '\033[0;90m'
+				FG = '\033[0;90m'
+				GET = '\033[0;92m [P] GET PREMIUM'
+		except requests.exceptions.ConnectionError:
+			print('\033[1;31mINCORECT OPTION!\033[1;31m')
         xyz()
 #---------------------[CLONING MAIN DEF]---------------------#
 #---------------------[PASS 1 CLONING MENU]---------------------#
